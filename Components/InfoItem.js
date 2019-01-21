@@ -8,11 +8,10 @@ render(){
      return(
           <TouchableOpacity
                 style={styles.main_container}
-              
                 >
                 <Image style={styles.image} source={{uri: info.urlToImage}} />
                    <Text style={styles.title_style} numberOfLines={2}>
-                            {info.title}
+                            {info.description}
                    </Text>
                    <Text style={styles.date_style}>{moment(info.publishedAt).startOf('hour').fromNow()}</Text>
           </TouchableOpacity>
