@@ -1,10 +1,10 @@
 import React from 'react';
-import SearchNews from './Components/SearchNews.js';
-
+import News from './Components/News';
+import Navigation from './Navigation/Navigation'
 export default class App extends React.Component {
   render() {
     return (
-      <SearchNews />
+      <Navigation />
     );
   }
 }
